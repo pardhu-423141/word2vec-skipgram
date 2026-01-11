@@ -1,0 +1,32 @@
+Comparing embeddings with gensim embeddings using cosine similarity.
+
+king       → cosine similarity = -0.06479649990797043
+queen      → cosine similarity = -0.010045264847576618
+man        → cosine similarity = 0.020492028445005417
+woman      → cosine similarity = -0.022527113556861877
+computer   → cosine similarity = 0.011419328860938549
+science    → cosine similarity = 0.0022191861644387245
+
+
+Word analogy based on trained embeddings.
+
+man:king :: woman:?
+[('lord', np.float32(0.33446345)), ('geosynchronous', np.float32(0.31400275)), ('cracking', np.float32(0.3132978)), ('kingdom', np.float32(0.31251252)), ('aragon', np.float32(0.31193417))]
+paris:france :: italy:?
+[('leonor', np.float32(0.39667183)), ('bavaria', np.float32(0.38391936)), ('edmund', np.float32(0.37262678)), ('moorish', np.float32(0.37126833)), ('sir', np.float32(0.36991638))]
+big:bigger :: small:?
+[('levelled', np.float32(0.47999343)), ('teammate', np.float32(0.46433043)), ('logistical', np.float32(0.4606672)), ('appel', np.float32(0.45791063)), ('clutter', np.float32(0.45743355))]
+good:better :: bad:?
+[('configuration', np.float32(0.29374582)), ('too', np.float32(0.28943256)), ('nigerian', np.float32(0.28939444)), ('compelled', np.float32(0.28238815)), ('philadelphus', np.float32(0.2822813))]
+
+
+Detecting bias in embeddings.
+
+doctor      : -0.2238630121140399
+nurse       : 0.25707194309690373
+engineer    : 0.37710302540948293
+programmer  : -0.10873998363394197
+teacher     : 0.2971337140386483
+scientist   : -0.18064403344046195
+artist      : 0.25258763584585503
+lawyer      : -0.20072530812797346
