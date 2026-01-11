@@ -1,4 +1,2 @@
 enwik9.zip
-*.npy
-*.model
 __pycache__/
