@@ -1,32 +1,32 @@
 Comparing embeddings with gensim embeddings using cosine similarity.
 
-king       → cosine similarity = -0.06479649990797043
-queen      → cosine similarity = -0.010045264847576618
-man        → cosine similarity = 0.020492028445005417
-woman      → cosine similarity = -0.022527113556861877
-computer   → cosine similarity = 0.011419328860938549
-science    → cosine similarity = 0.0022191861644387245
+king       → cosine similarity = 0.010555779561400414
+queen      → cosine similarity = 0.007837611250579357
+man        → cosine similarity = -0.037494175136089325
+woman      → cosine similarity = -0.021711383014917374
+computer   → cosine similarity = 0.010824250988662243
+science    → cosine similarity = 0.09402227401733398
 
 
 Word analogy based on trained embeddings.
 
 man:king :: woman:?
-[('lord', np.float32(0.33446345)), ('geosynchronous', np.float32(0.31400275)), ('cracking', np.float32(0.3132978)), ('kingdom', np.float32(0.31251252)), ('aragon', np.float32(0.31193417))]
+[('prince', np.float32(0.44625783)), ('kings', np.float32(0.42751917)), ('ruler', np.float32(0.42003956)), ('son', np.float32(0.40526396)), ('emperor', np.float32(0.4030922))]
 paris:france :: italy:?
-[('leonor', np.float32(0.39667183)), ('bavaria', np.float32(0.38391936)), ('edmund', np.float32(0.37262678)), ('moorish', np.float32(0.37126833)), ('sir', np.float32(0.36991638))]
+[('burgundian', np.float32(0.4710237)), ('lithuania', np.float32(0.47017932)), ('svg', np.float32(0.45574582)), ('moorish', np.float32(0.43278557)), ('belgium', np.float32(0.42852616))]
 big:bigger :: small:?
-[('levelled', np.float32(0.47999343)), ('teammate', np.float32(0.46433043)), ('logistical', np.float32(0.4606672)), ('appel', np.float32(0.45791063)), ('clutter', np.float32(0.45743355))]
+[('weighing', np.float32(0.36227453)), ('inaccessible', np.float32(0.344976)), ('large', np.float32(0.34279728)), ('sizeable', np.float32(0.33498058)), ('refered', np.float32(0.33155978))]
 good:better :: bad:?
-[('configuration', np.float32(0.29374582)), ('too', np.float32(0.28943256)), ('nigerian', np.float32(0.28939444)), ('compelled', np.float32(0.28238815)), ('philadelphus', np.float32(0.2822813))]
+[('proclus', np.float32(0.32231736)), ('darker', np.float32(0.31558138)), ('performances', np.float32(0.3111294)), ('multiplier', np.float32(0.30854952)), ('fuji', np.float32(0.30491662))]
 
 
 Detecting bias in embeddings.
 
-doctor      : -0.2238630121140399
-nurse       : 0.25707194309690373
-engineer    : 0.37710302540948293
-programmer  : -0.10873998363394197
-teacher     : 0.2971337140386483
-scientist   : -0.18064403344046195
-artist      : 0.25258763584585503
-lawyer      : -0.20072530812797346
+doctor      : -0.3238981287842498
+nurse       : -0.23460782442169786
+engineer    : 0.517427933248224
+programmer  : -0.24719643818566622
+teacher     : -0.20855594605854672
+scientist   : -0.2111775828910653
+artist      : -0.1905689033998214
+lawyer      : -0.30355155697413005

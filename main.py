@@ -7,7 +7,7 @@ from bias_detection import bias_detection
 
 
 if __name__ == "__main__":
-    training=False
+    training=True
     if training:
         train()
         gen_train()
